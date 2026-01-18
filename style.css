@@ -550,17 +550,14 @@ input::placeholder, textarea::placeholder{
   position:relative;
   overflow:hidden;
   border-radius:16px;
-}
-
-.team-wrapper{
-  max-height: 420px; 
+  max-height: 420px;
   transition: max-height 0.45s ease;
 }
 
-
 .team-wrapper.open{
-  max-height: 2000px; 
+  max-height: 2000px;
 }
+
 
 
 .team-fade{
@@ -737,11 +734,11 @@ input::placeholder, textarea::placeholder{
 
 @media (max-width: 900px){
   .team-wrapper{
-    max-height: 800px;
+    max-height: 900px;
   }
 
   .team-wrapper.open{
-    max-height: 5000px;
+    max-height: 99999px;
   }
 }
 
