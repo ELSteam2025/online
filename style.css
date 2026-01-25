@@ -325,10 +325,13 @@ font-size:28px;
   width:56px;
   height:56px;
   border-radius:16px;
-  background: radial-gradient(circle at 20% 20%, rgba(212,175,55,0.18), rgba(255,255,255,0.04));
   border:1px solid var(--border);
   margin-bottom:12px;
+  object-fit: cover;       
+  object-position: center; 
+  display:block;           
 }
+
 .muted{color:var(--muted);}
 
 
@@ -741,4 +744,5 @@ input::placeholder, textarea::placeholder{
     max-height: 99999px;
   }
 }
+
 
